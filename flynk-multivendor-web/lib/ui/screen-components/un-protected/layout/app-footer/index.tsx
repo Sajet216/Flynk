@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import AppLinks from "@/lib/ui/useable-components/Footer/AppLinks";
 import FooterLinks from "@/lib/ui/useable-components/Footer/FooterLinks";
@@ -48,18 +48,18 @@ const AppFooter = () => {
       { label: t("Footer.aboutUs"), link: "/about", internal: true },
       { label: t("Footer.termsConditions"), link: "/terms", internal: true },
       { label: t("Footer.privacyPolicy"), link: "/privacy", internal: true },
-      { label: t("Footer.contact"), link: "https://ninjascode.com/", internal: false },
-      { label: t("Footer.developers"), link: "https://ninjascode.com/", internal: false },
+      { label: t("Footer.contact"), link: "/contact", internal: true },
+      { label: t("Footer.developers"), link: "/developers", internal: true },
     ],
   };
 
   const followUs = {
     title: t("Footer.followUs"),
     links: [
-      { label: t("Footer.blog"), link: "https://ninjascode.com/blog", internal: false },
+      { label: t("Footer.blog"), link: "/blog", internal: true },
       {
         label: t("Footer.instagram"),
-        link: "https://www.instagram.com/ninjascodeofficial?igsh=ajFoeGxud3FqYnd3",
+        link: "https://www.instagram.com/flynk",
         internal: false,
       },
       {
@@ -69,7 +69,7 @@ const AppFooter = () => {
       },
       {
         label: t("Footer.linkedIn"),
-        link: "https://www.linkedin.com/company/flynk/?originalSubdomain=pk",
+        link: "https://www.linkedin.com/company/flynk/",
         internal: false,
       },
     ],
@@ -81,7 +81,7 @@ const AppFooter = () => {
       { label: t("Footer.forRestaurants"), href: "/restaurantInfo" },
       { label: t("Footer.forRiders"), href: "/rider" },
       { label: t("Footer.privacyPolicy"), href: "/privacy" },
-      { label: t("Footer.contact"), href: "https://ninjascode.com/" },
+      { label: t("Footer.contact"), href: "/contact" },
     ];
 
     return (

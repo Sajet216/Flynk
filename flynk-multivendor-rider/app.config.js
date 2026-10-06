@@ -64,7 +64,7 @@ module.exports = {
       [
         '@sentry/react-native/expo',
         {
-          organization: 'ninjas-code',
+          organization: 'flynk',
           project: 'flynk-rider-app',
           url: 'https://sentry.io/'
         }

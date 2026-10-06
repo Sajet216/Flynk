@@ -100,7 +100,7 @@ const Layout = ({ children }: IProvider) => {
           });
 
           notification.onclick = () => {
-            window.open('https://multivendor-admin.ninjascode.com/dashboard');
+            window.open('/dashboard');
           };
         });
       }
