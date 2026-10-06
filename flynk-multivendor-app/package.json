@@ -1,4 +1,4 @@
-﻿{
+{
   "name": "flynk-full-app",
   "version": "5.0.0",
   "main": "node_modules/expo/AppEntry.js",
@@ -85,7 +85,7 @@
     "expo-keep-awake": "~14.1.4",
     "expo-linear-gradient": "~14.1.5",
     "expo-linking": "~7.1.7",
-    "expo-localization": "~16.1.5",
+    "expo-localization": "~57.0.2",
     "expo-location": "~18.1.5",
     "expo-navigation-bar": "~4.2.8",
     "expo-network": "~7.1.5",
