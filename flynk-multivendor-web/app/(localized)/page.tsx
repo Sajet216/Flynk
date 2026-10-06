@@ -1,5 +1,6 @@
-import ModeHome from "@/lib/ui/screens/unprotected/ModeHome";
+import DemoHomePage from "./demo/page";
 
 export default function RootPage() {
-  return <ModeHome />;
+  return <DemoHomePage />;
 }
+

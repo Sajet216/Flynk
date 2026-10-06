@@ -20,9 +20,23 @@ import { useSearchUI } from "@/lib/context/search/search.context";
 // Hooks
 import { useAuth } from "@/lib/context/auth/auth.context";
 import { usePathname } from "next/navigation";
+import { LocalCartProvider } from "@/lib/context/LocalCartContext";
 
 const AppLayout = ({ children }: IProvider) => {
   const pathname = usePathname();
+  const isCityPlatformRoute =
+    pathname === "/" ||
+    pathname === "/insights" ||
+    pathname?.startsWith("/stores") ||
+    pathname?.startsWith("/store-portal") ||
+    pathname?.startsWith("/rider-portal") ||
+    pathname?.startsWith("/bengaluru") ||
+    pathname?.startsWith("/onboard");
+
+  if (isCityPlatformRoute) {
+    return <LocalCartProvider>{children}</LocalCartProvider>;
+  }
+
   const [isScrolled, setIsScrolled] = useState(false);
   // Hooks
   const { isAuthModalVisible, setIsAuthModalVisible, setActivePanel } = useAuth();

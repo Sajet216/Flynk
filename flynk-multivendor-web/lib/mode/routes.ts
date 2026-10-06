@@ -14,6 +14,14 @@ const SINGLE_ONLY = [
 ];
 
 export const isRouteCompatible = (pathname: string, mode: AppMode) => {
+  if (
+    pathname.startsWith("/store-portal") ||
+    pathname.startsWith("/rider-portal") ||
+    pathname.startsWith("/insights") ||
+    pathname.startsWith("/stores")
+  ) {
+    return true;
+  }
   const rules = mode === APP_MODES.SINGLE ? MULTI_ONLY : SINGLE_ONLY;
   return !rules.some((rule) => rule.test(pathname));
 };

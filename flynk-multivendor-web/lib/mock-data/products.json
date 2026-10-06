@@ -1,0 +1,57 @@
+[
+  { "id": "p1",  "storeId": "store-1",  "name": "Masala Dosa",        "price": 80,   "category": "Breakfast" },
+  { "id": "p2",  "storeId": "store-1",  "name": "Idli Sambar (4 pcs)","price": 60,   "category": "Breakfast" },
+  { "id": "p3",  "storeId": "store-1",  "name": "Medu Vada",          "price": 50,   "category": "Snacks" },
+  { "id": "p4",  "storeId": "store-1",  "name": "Rava Idli",          "price": 70,   "category": "Breakfast" },
+  { "id": "p5",  "storeId": "store-1",  "name": "Filter Coffee",      "price": 30,   "category": "Beverages" },
+  { "id": "p6",  "storeId": "store-1",  "name": "South Indian Thali", "price": 180,  "category": "Meals" },
+
+  { "id": "p7",  "storeId": "store-2",  "name": "Organic Milk 1L",    "price": 72,   "category": "Dairy" },
+  { "id": "p8",  "storeId": "store-2",  "name": "Whole Wheat Bread",  "price": 45,   "category": "Bakery" },
+  { "id": "p9",  "storeId": "store-2",  "name": "Farm Fresh Eggs (6)","price": 65,   "category": "Dairy" },
+  { "id": "p10", "storeId": "store-2",  "name": "Basmati Rice 5kg",   "price": 380,  "category": "Grains" },
+  { "id": "p11", "storeId": "store-2",  "name": "Toor Dal 1kg",       "price": 145,  "category": "Pulses" },
+  { "id": "p12", "storeId": "store-2",  "name": "Coconut Oil 1L",     "price": 220,  "category": "Oils" },
+
+  { "id": "p13", "storeId": "store-3",  "name": "Paracetamol 500mg",  "price": 18,   "category": "OTC" },
+  { "id": "p14", "storeId": "store-3",  "name": "Vitamin C 1000mg",   "price": 120,  "category": "Supplements" },
+  { "id": "p15", "storeId": "store-3",  "name": "Hand Sanitizer",     "price": 85,   "category": "Hygiene" },
+  { "id": "p16", "storeId": "store-3",  "name": "Cough Syrup",        "price": 95,   "category": "OTC" },
+  { "id": "p17", "storeId": "store-3",  "name": "BP Monitor",         "price": 1200, "category": "Devices" },
+
+  { "id": "p18", "storeId": "store-4",  "name": "Cotton Kurta",       "price": 1200, "category": "Tops" },
+  { "id": "p19", "storeId": "store-4",  "name": "Silk Saree",         "price": 3500, "category": "Sarees" },
+  { "id": "p20", "storeId": "store-4",  "name": "Linen Shirt",        "price": 1800, "category": "Tops" },
+  { "id": "p21", "storeId": "store-4",  "name": "Palazzo Set",        "price": 2200, "category": "Sets" },
+
+  { "id": "p22", "storeId": "store-5",  "name": "Samsung Galaxy S24", "price": 74999,"category": "Mobiles" },
+  { "id": "p23", "storeId": "store-5",  "name": "Apple iPad 10th Gen","price": 44900,"category": "Tablets" },
+  { "id": "p24", "storeId": "store-5",  "name": "Sony Headphones WH1","price": 18900,"category": "Audio" },
+  { "id": "p25", "storeId": "store-5",  "name": "Laptop Stand",       "price": 1299, "category": "Accessories" },
+
+  { "id": "p26", "storeId": "store-6",  "name": "Khara Bun",          "price": 15,   "category": "Bread" },
+  { "id": "p27", "storeId": "store-6",  "name": "Dilpasand",          "price": 25,   "category": "Pastry" },
+  { "id": "p28", "storeId": "store-6",  "name": "Butter Cake",        "price": 280,  "category": "Cakes" },
+  { "id": "p29", "storeId": "store-6",  "name": "Coconut Biscuits",   "price": 40,   "category": "Biscuits" },
+  { "id": "p30", "storeId": "store-6",  "name": "Iyengar Special Bun","price": 20,   "category": "Bread" },
+
+  { "id": "p31", "storeId": "store-7",  "name": "Harry Potter Set",   "price": 1800, "category": "Fiction" },
+  { "id": "p32", "storeId": "store-7",  "name": "NCERT Science 10",   "price": 145,  "category": "Textbooks" },
+  { "id": "p33", "storeId": "store-7",  "name": "A4 Notebooks (5pk)", "price": 120,  "category": "Stationery" },
+  { "id": "p34", "storeId": "store-7",  "name": "Kannada Grammar Bk", "price": 220,  "category": "Language" },
+
+  { "id": "p35", "storeId": "store-8",  "name": "Ergonomic Chair",    "price": 18500,"category": "Seating" },
+  { "id": "p36", "storeId": "store-8",  "name": "Bookshelf 5-Tier",   "price": 9800, "category": "Storage" },
+  { "id": "p37", "storeId": "store-8",  "name": "Study Table",        "price": 12000,"category": "Tables" },
+
+  { "id": "p38", "storeId": "store-9",  "name": "Cricket Bat (SG)",   "price": 2800, "category": "Cricket" },
+  { "id": "p39", "storeId": "store-9",  "name": "Yoga Mat",           "price": 999,  "category": "Fitness" },
+  { "id": "p40", "storeId": "store-9",  "name": "Badminton Racket",   "price": 1500, "category": "Badminton" },
+  { "id": "p41", "storeId": "store-9",  "name": "Running Shoes",      "price": 2200, "category": "Footwear" },
+  { "id": "p42", "storeId": "store-9",  "name": "Protein Powder 1kg", "price": 1800, "category": "Nutrition" },
+
+  { "id": "p43", "storeId": "store-10", "name": "Lakme Foundation",   "price": 650,  "category": "Makeup" },
+  { "id": "p44", "storeId": "store-10", "name": "Mamaearth Serum",    "price": 450,  "category": "Skincare" },
+  { "id": "p45", "storeId": "store-10", "name": "Biotique Shampoo",   "price": 320,  "category": "Haircare" },
+  { "id": "p46", "storeId": "store-10", "name": "Sugar Lip Balm",     "price": 280,  "category": "Makeup" }
+]

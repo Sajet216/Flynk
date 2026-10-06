@@ -1,0 +1,12 @@
+[
+  { "id": "cat-1", "name": "Food & Restaurants", "slug": "food", "icon": "🍛", "color": "#FF6B6B", "description": "Restaurants, cafes, tiffin centres and cloud kitchens" },
+  { "id": "cat-2", "name": "Grocery & Supermarket", "slug": "grocery", "icon": "🛒", "color": "#4ECDC4", "description": "Fresh produce, dairy, packaged goods and daily essentials" },
+  { "id": "cat-3", "name": "Pharmacy & Health", "slug": "pharmacy", "icon": "💊", "color": "#45B7D1", "description": "Medicines, health supplements, and medical supplies" },
+  { "id": "cat-4", "name": "Clothing & Fashion", "slug": "clothing", "icon": "👗", "color": "#96CEB4", "description": "Apparel, footwear, accessories and traditional wear" },
+  { "id": "cat-5", "name": "Electronics", "slug": "electronics", "icon": "📱", "color": "#FFEAA7", "description": "Mobile phones, laptops, gadgets and accessories" },
+  { "id": "cat-6", "name": "Bakery & Sweets", "slug": "bakery", "icon": "🎂", "color": "#DDA0DD", "description": "Fresh bread, cakes, mithai and confectionery" },
+  { "id": "cat-7", "name": "Books & Stationery", "slug": "books", "icon": "📚", "color": "#F0E68C", "description": "Textbooks, novels, office supplies and stationery" },
+  { "id": "cat-8", "name": "Home & Furniture", "slug": "home", "icon": "🏠", "color": "#98D8C8", "description": "Furniture, home decor, kitchenware and appliances" },
+  { "id": "cat-9", "name": "Sports & Fitness", "slug": "sports", "icon": "🏏", "color": "#FFB347", "description": "Sports equipment, fitness gear and outdoor supplies" },
+  { "id": "cat-10", "name": "Beauty & Cosmetics", "slug": "beauty", "icon": "💄", "color": "#FF9FF3", "description": "Skincare, makeup, hair care and salon products" }
+]

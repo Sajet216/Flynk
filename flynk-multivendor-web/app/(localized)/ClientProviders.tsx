@@ -17,6 +17,8 @@ import NotificationInitializer from "../NotificationInitialzer";
 import FirebaseForegroundHandler from "@/lib/config/FirebaseForegroundHandler";
 import { AppModeProvider, useAppMode } from "@/lib/mode";
 import ModeRouteGuard from "@/lib/mode/ModeRouteGuard";
+import { usePathname } from "next/navigation";
+import { LocalCartProvider } from "@/lib/context/LocalCartContext";
 
 function ModeProviders({
   children,
@@ -85,7 +87,28 @@ function ReadyModeProviders({ children }: { children: React.ReactNode }) {
   return <ModeProviders key={mode}>{children}</ModeProviders>;
 }
 
+
 export default function ClientProviders({ children }: { children: React.ReactNode }) {
+  const pathname = usePathname();
+  const isCityRoute =
+    pathname === "/" ||
+    pathname === "/insights" ||
+    pathname?.startsWith("/demo") ||
+    pathname?.startsWith("/stores") ||
+    pathname?.startsWith("/store-portal") ||
+    pathname?.startsWith("/rider-portal") ||
+    pathname?.startsWith("/demo-hub") ||
+    pathname?.startsWith("/bengaluru") ||
+    pathname?.startsWith("/onboard");
+
+  if (isCityRoute) {
+    return (
+      <AppModeProvider>
+        <LocalCartProvider>{children}</LocalCartProvider>
+      </AppModeProvider>
+    );
+  }
+
   return (
     <AppModeProvider>
       <ReadyModeProviders>{children}</ReadyModeProviders>
