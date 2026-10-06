@@ -1,4 +1,4 @@
-﻿{
+{
   "name": "flynk-frontend",
   "version": "0.1.0",
   "private": true,
@@ -60,7 +60,7 @@
     "yup": "^1.6.1"
   },
   "devDependencies": {
-    "@babel/parser": "^7.28.0",
+    "@babel/parser": "^8.0.6",
     "@commitlint/cli": "^19.3.0",
     "@commitlint/config-conventional": "^19.2.2",
     "@eslint/eslintrc": "^3.3.1",
